@@ -89,7 +89,7 @@ BoxCollider:
   m_GameObject: {fileID: 1069012492446069965}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -182,7 +182,7 @@ BoxCollider:
   m_GameObject: {fileID: 1721161457783914124}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -275,7 +275,7 @@ BoxCollider:
   m_GameObject: {fileID: 3728697043184167397}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -368,7 +368,7 @@ BoxCollider:
   m_GameObject: {fileID: 3728697043199896061}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -384,6 +384,7 @@ GameObject:
   - component: {fileID: 1985037634}
   - component: {fileID: 4934426089859864392}
   - component: {fileID: 1985037635}
+  - component: {fileID: 1226567519}
   m_Layer: 0
   m_Name: Rocket
   m_TagString: Untagged
@@ -423,7 +424,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3728697044242584477}
   serializedVersion: 2
-  m_Mass: 0.1
+  m_Mass: 1
   m_Drag: 0.2
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -539,6 +540,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75b5af25516639748ab9dead16c2ec35, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rotationThrust: 250
+  mainThrust: 50
+--- !u!65 &1226567519
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3728697044242584477}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2, y: 4.8741465, z: 2}
+  m_Center: {x: 0, y: 0.44713354, z: 0}
 --- !u!1 &3728697044385276544
 GameObject:
   m_ObjectHideFlags: 0
@@ -628,7 +644,7 @@ BoxCollider:
   m_GameObject: {fileID: 3728697044385276544}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -721,7 +737,7 @@ BoxCollider:
   m_GameObject: {fileID: 3728697044557142692}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -814,7 +830,7 @@ SphereCollider:
   m_GameObject: {fileID: 3728697045025337123}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
@@ -907,7 +923,7 @@ BoxCollider:
   m_GameObject: {fileID: 6402540475014947941}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -1000,7 +1016,7 @@ BoxCollider:
   m_GameObject: {fileID: 7868809053092525114}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -1093,7 +1109,7 @@ BoxCollider:
   m_GameObject: {fileID: 8070289780591008750}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
